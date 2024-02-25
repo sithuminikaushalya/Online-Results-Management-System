@@ -1,0 +1,79 @@
+header {
+    min-height: 80vh;
+    width: 100%;
+}
+
+ header.wrapper {
+    position: relative;
+ }
+
+
+header .cta p {
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 74px;
+    top: 230px;
+    
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #DCBE54;
+}
+
+header .cta h1 {
+    position: absolute;
+    width: 1000px;
+    height: 80px;
+    left: 158.02px;
+    top: 250px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+header .cta a {
+    position: absolute;
+    width: 250px;
+    height: 64px;
+    left: 302px;
+    top: 400px;
+    background: #F9DE52;
+    border-radius: 20px;
+
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 350px;
+    top: 400px;
+
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+header .cta img {
+    position: absolute;
+    width: 660px;
+    height: 450px;
+    left: 780px;
+    top: 200px;
+    background: url('./assests//image3.png');
+    background-repeat: no-repeat;
+}
+

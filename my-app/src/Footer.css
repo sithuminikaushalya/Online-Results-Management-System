@@ -1,0 +1,149 @@
+.footer-container {
+  position: absolute;
+  width: 100%;
+  height: 371px;
+  left: 0;
+  top: 1250px;
+  background: #000000;
+  justify-content: space-between;
+
+}
+
+.namefooter {
+  position: absolute;
+  width: 185px;
+  height: 96px;
+  left: 157px;
+  top: 24px;
+
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+
+  color: #fff;
+}
+
+.about {
+  position: absolute;
+  width: 502px;
+  height: 199px;
+  left: 188px;
+  top: 150px;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+
+.imagelogo {
+  position: absolute;
+  width: 153px;
+  height: 178px;
+  top: 0px;
+  mix-blend-mode: luminosity;
+}
+
+.university-text div {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  margin-bottom: 10px;
+  top: 10px;
+  left: 400px;
+}
+
+.university-text p {
+  position: absolute;
+  width: 502px;
+  height: 199px;
+  left: 188px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.contact {
+  text-align: right;
+  font-family: 'Times New Roman';
+  font-style: normal;
+  color: #FFFFFF;
+}
+
+.contact-heading {
+  position: absolute;
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  top: 20px;
+  left: 75%;
+  transform: translateX(-50%);
+}
+
+.contact-address {
+  position: absolute;
+  text-align: center;
+  width: 670px;
+  height: 39px;
+  top: 100px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  left: 75%;
+  transform: translateX(-50%);
+}
+
+.contact-icons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 160px;
+  left: 70%;
+  transform: translateX(-50%);
+}
+
+.phone-icon,
+.email-icon {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.phone-icon img,
+.email-icon img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.phone-icon span,
+.email-icon span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+.email-icon span {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: left;
+  margin-left: 10px;
+  white-space: nowrap;
+}
+
+.phone-icon:hover,
+.email-icon:hover {
+  color: #FFF5C3;
+}
